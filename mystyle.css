@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+ 
+
+    *{
+        margin: 0;
+        padding: 0;
+        
+    } 
+    menu{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+  
+    body{
+        font-family: 'lato', sans-serif;
+        background-color: rgb(20, 206, 219);
+        color: white;
+        text-align: center;
+    }
+    
+    nav.menu{
+        text-decoration: white;
+        letter-spacing: 3px;
+        word-spacing: 3px;
+        align-items: center;
+       
+    }
+    main.groom{
+        margin-top: 10% !important;
+    }
+
+    h1{
+        font-weight: 6000;
+        text-transform: uppercase;
+    }
+    h2{
+        text-transform: uppercase;
+    }
+  
+    .container{
+       margin-top: 5%;
+      align-items: center;
+    }
+  
+    #pets{
+        margin-top: 10%;
+        text-transform: uppercase;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        column-gap: 1rem;
+    }
+    .pet{
+        background-color: grey;
+    }
+
+    footer{
+        margin-top: 10%;
+        text-align: center;
+    }
+    input{
+        margin-top: 1rem !important; 
+        border: outset !important;
+
+    }
